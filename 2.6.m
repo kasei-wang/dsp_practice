@@ -1,0 +1,9 @@
+t=0:0.001:1;
+g1=cos(6*pi*t);
+g2=cos(14*pi*t);
+g3=cos(26*pi*t);
+plot(t,g1,'-',t,g2,'--',t,g3,':');
+hold
+n=0:1:9;
+gs=cos(0.6*pi*n);
+plot(n/10,gs,'o');
